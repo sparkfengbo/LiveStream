@@ -20,8 +20,7 @@ FLV文件体 = 前一个tag大小0（PreviousTagSize0） + tag1 + 前一个tag�
 ```
 FLV文件体结构如下图
 
-![](/Users/leegend/Desktop/tmppic/5da56f2096e1ea74c7be9ed76f1b49ac.png
-)
+![](LiveStream/tmppic/5da56f2096e1ea74c7be9ed76f1b49ac.png)
 
 ###2.1FLV 头文件
 
