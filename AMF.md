@@ -12,6 +12,7 @@ AMF self-contained packet
 AMF0
 
 这个格式制定了多种数据类型用来编码数据。
+ 
  Adobe states that AMF is mainly used to represent object graphs that include named properties in the form of key-value pairs, where the keys are encoded as strings and the values can be of any data type such as strings or numbers as well as arrays and other objects. XML is supported as a native type. Each type is denoted by a single byte preceding the actual data. The values of that byte are as below (for AMF0):
  
 - Number - 0x00 (Encoded as IEEE 64-bit double-precision floating point number)
@@ -38,6 +39,7 @@ AMF0
 - Numbers are encoded as double-precision floating point and are composed of eight bytes.
 
 举例：
+
 ```
 var person:Object = {name:'Mike', age:'30', alias:'Mike'};
 var stream:ByteArray = new ByteArray();
